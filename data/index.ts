@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -49,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently available to take on new position, projects, collaborations, or freelance work. let's connect!",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,19 +74,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Prompt Palace: MentorLed (Backend Developer)",
+    des: "A community-driven AI prompt library where you can discover, share, and refine prompts for coding, design, writing, and more.",
+    img: "/p1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "/https://promptpal-frontend.vercel.app",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Property Guru Nigeria: Konfirm Tech Africa (Full-Stack, Backend Focus)",
+    des: "PropertyGuru NG is the leading Nigeria Property website - the best place to start your real estate search whether you are an investor, buying for own use, or looking for a place to rent.",
+    img: "/p2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "/https://property-guru-drab.vercel.app",
   },
   {
     id: 3,
@@ -96,9 +98,9 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Housify Backend Developer ",
+    des: "Housify is a real estate platform that connects buyers, sellers, and renters with properties and real estate agents.",
+    img: "/p4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
@@ -107,31 +109,31 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Wale was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Wale's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Wale is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Wale was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Wale's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Wale is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Wale was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Wale's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Wale is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Wale was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Wale's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Wale is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Wale was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Wale's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Wale is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
@@ -171,33 +173,33 @@ export const companies = [
 ];
 
 export const workExperience = [
-  {
+    {
     id: 1,
+    title: "Backend Developer",
+    desc: "Developed modular backend services, adhering to Clean Architecture principles to ensure code maintainability and testability.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 2,
     title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Assisted in the development of a web-based platform using React.js and Angular, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    id: 3,
+    title: "Full-Stack Developer - Konfirm Tech Africa",
+    desc: "•	Developed full-stack applications using React.js, Node.js, and MongoDB, enhancing user experience and functionality.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Freelance App Dev Project",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp3.svg",
   },
 ];
 
@@ -205,13 +207,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/AdeproCode"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/Adepurity5728"
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/wale-adetokun/"
   },
 ];
